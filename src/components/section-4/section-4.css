@@ -1,0 +1,26 @@
+#section-4 h1 {
+    color: white;
+}
+
+#section-4 h4 {
+    color: white;
+}
+
+#section-4 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background:linear-gradient(135deg, #FFD34B 0%, #FF2369 50%, #FF2369 100%);
+}
+
+@media screen and (max-width: 980px) {
+
+    #section-4{
+        padding: 25px;
+        height: auto!important;
+    }
+
+    #section-4 .left {
+        padding-top: 50px;
+    }
+}

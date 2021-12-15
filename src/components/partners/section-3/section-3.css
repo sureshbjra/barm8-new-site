@@ -1,0 +1,51 @@
+#partner-section-3 .content-container {
+    background: white;
+    border-radius: 40px;
+    padding: 50px;
+    width: 60%;
+}
+
+#partner-section-3 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./section3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15%;
+}
+
+#partner-section-3 h4 {
+    font-size: 26px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: #252525;
+    margin-top: 25px;
+}
+
+#partner-section-3 h2{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 980px) {
+
+#partner-section-3 .content-container{
+    width: 90%;
+    margin: auto;
+    padding: 25px 15px;
+}
+
+#partner-section-3 h2{
+    font-size: 24px;
+}
+
+#partner-section-3 h4 {
+    font-size: 22px;
+}
+
+}
+
+.btn{
+    background: #fba919;
+}

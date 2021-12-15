@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+#partners-section-1 {
+    margin-top: 60px;
+    height: auto;
+    padding-bottom: 25px;
+    width: 100vw;
+    position: relative;
+    background-image: url(landingBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#partners-section-1 button {
+    margin-top: 25px;
+    padding: 10px 20px;
+}
+
+#partners-section-1 h1 {
+    color: white;
+}
+
+#partners-section-1 h4 {
+    color: white;
+}
+
+#partners-section-1 img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#partners-section-1 .left-content {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+#partners-section-1 #main-section {
+    /* height: 80vh; */
+}
+
+#partners-section-1 .right-clip {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: -70px;
+    bottom: 0;
+    right: -250px;
+    width: 707px;
+    max-height: 750px;
+}
+
+@media screen and (max-width: 980px) {
+
+    #partners-section-1 {
+    margin-top: 50px;
+    }
+
+    #partners-section-1 .right-clip {
+        right: -100px;
+    }
+
+    #partners-section-1 .right-clip {
+        width: 100%;
+    }
+}
+
+.btn{
+    background: #fba919;
+}

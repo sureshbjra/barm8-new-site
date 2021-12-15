@@ -1,0 +1,67 @@
+#contact{
+    padding: 50px 0px;
+}
+
+#contact .disc {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+#contact form {
+    width: 95%;
+}
+
+#contact button {
+    background: #fba919;
+    color: #000;
+    padding: 16px 32px;
+    font-size: 1rem;
+    line-height: .75rem;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+#contact button:hover {
+    background: #fba919!important;
+    color: #000!important;
+}
+
+
+#contact h2 {
+    font-size: 2.375rem;
+    font-weight: 900!important;
+    font-style: normal;
+    line-height: 2.625rem;
+    letter-spacing: 0;
+    width: 100%;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+}
+
+#contact h3 {
+    margin-bottom: 15px;
+}
+
+#contact .image {
+    background: #ff4c00;
+    background-image: url(https://d2w1ef2ao9g8r9.cloudfront.net/images/schedule-demo-illustration.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 70%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 15px;
+}
+
+#contact img {
+    width: 110%;
+    margin-left: -10%;
+}
+
+@media screen and (max-width: 980px) {
+
+#contact .disc {
+    margin-bottom: 20px;
+}
+
+}

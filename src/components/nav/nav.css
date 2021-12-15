@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+
+nav {
+    background: transparent;
+    height: 100px;
+    z-index: 1;
+    transition: all .5s ease-in-out;
+}
+
+.nav-scrolled {
+    background: black;
+    transition: all .5s ease-in-out;
+    height: 60px;
+    padding: 10px;
+}
+
+.navbar-brand-alt {
+    font-size: 40px!important;
+    margin-left: 50px!important;
+    transition: all .5s ease-in-out;
+}
+
+.nav-link-alt {
+    color: white!important;
+    transition: all .5s ease-in-out;
+}
+
+.navbar-brand, .navbar-brand:hover {
+    font-family: 'Yellowtail', cursive;
+    font-size: 50px;
+    color: #F2A03F;
+    margin-left: 100px;
+    transition: all .5s ease-in-out;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250,250,250, 0.6)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-nav {
+    margin-right: 100px;
+}
+
+.navbar-nav-alt {
+    margin-right: 50px!important;
+    transition: all .5s ease-in-out;
+}
+
+.nav-item {
+    width: auto;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 980px) {
+
+    .navbar {
+        padding: 0px;
+        height: 70px;
+        background: black;
+    }
+    
+    .navbar-brand {
+        margin-left: 15px;
+        font-size: 40px;
+    }
+
+    .navbar-brand-alt {
+        font-size: 40px!important;
+        margin-left: 15px!important;
+        transition: all .5s ease-in-out;
+    }
+
+    .navbar-nav-alt {
+        margin-right: 0px!important;
+        transition: all .5s ease-in-out;
+    }
+
+    .nav-link-alt {
+        color: #F2A03F!important;
+        transition: all .5s ease-in-out;
+    }
+    .nav-item {
+        background: black;
+        color: white;
+        width: 100%;
+    }
+
+    .nav-item a {
+        font-size: 24px;
+        font-family: 'Yellowtail', cursive;
+        color: #F2A03F;
+    }
+
+    .navbar-nav{ 
+        margin-right: 0px;
+    }
+
+    .navbar-toggler {
+        margin-right: 15px;
+    }
+}
