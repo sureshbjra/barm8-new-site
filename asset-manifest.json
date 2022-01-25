@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/barM8-dashboard/static/css/main.a4188d4c.chunk.css",
+    "main.js": "/barM8-dashboard/static/js/main.4f47830d.chunk.js",
+    "main.js.map": "/barM8-dashboard/static/js/main.4f47830d.chunk.js.map",
+    "runtime-main.js": "/barM8-dashboard/static/js/runtime-main.3ae6c127.js",
+    "runtime-main.js.map": "/barM8-dashboard/static/js/runtime-main.3ae6c127.js.map",
+    "static/css/2.f4c56af9.chunk.css": "/barM8-dashboard/static/css/2.f4c56af9.chunk.css",
+    "static/js/2.8d07eba1.chunk.js": "/barM8-dashboard/static/js/2.8d07eba1.chunk.js",
+    "static/js/2.8d07eba1.chunk.js.map": "/barM8-dashboard/static/js/2.8d07eba1.chunk.js.map",
+    "index.html": "/barM8-dashboard/index.html",
+    "static/css/2.f4c56af9.chunk.css.map": "/barM8-dashboard/static/css/2.f4c56af9.chunk.css.map",
+    "static/css/main.a4188d4c.chunk.css.map": "/barM8-dashboard/static/css/main.a4188d4c.chunk.css.map",
+    "static/js/2.8d07eba1.chunk.js.LICENSE.txt": "/barM8-dashboard/static/js/2.8d07eba1.chunk.js.LICENSE.txt",
+    "static/media/section-3.css": "/barM8-dashboard/static/media/section3.5abd05ed.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ae6c127.js",
+    "static/css/2.f4c56af9.chunk.css",
+    "static/js/2.8d07eba1.chunk.js",
+    "static/css/main.a4188d4c.chunk.css",
+    "static/js/main.4f47830d.chunk.js"
+  ]
+}
